@@ -1,0 +1,59 @@
+System Design Document
+
+## System Scope ##
+
+### In Scope ###
+
+- Static single-page website.
+- Anchored navigation between page sections.
+- Responsive desktop and mobile layout.
+- Mobile navigation menu.
+- Dark blue visual theme.
+- Lightweight JavaScript interactions.
+- Profile content rendered directly in HTML or JavaScript data objects.
+- Optional handling for CV, LinkedIn, email, and profile image.
+
+### Out Of Scope ###
+
+- Backend API.
+- Database.
+- Login or user account.
+- Admin content management.
+- Form submission backend.
+- Frameworks such as React, Vue, Angular, Next.js, Bootstrap, or Tailwind.
+- Analytics or user tracking.
+
+### System Components ###
+
+| Component | Type | Responsibility |
+| --- | --- | --- |
+| `index.html` | HTML | Defines page structure, semantic sections, content placeholders, and navigation. |
+| `styles.css` | CSS | Defines dark blue theme, layout, responsive behavior, cards, timeline, and animations. |
+| `script.js` | JavaScript | Handles mobile menu, smooth navigation behavior, active nav state, reveal effects, and optional content visibility. |
+| Profile Content | Static Content | Stores profile text, timeline entries, job details, domain exposure, credentials, education, and contact details. |
+| Optional Assets | Static Assets | Stores profile photo or CV file if provided. |
+
+### File Structure ###
+
+```text
+/
+|-- index.html
+|-- styles.css
+|-- script.js
+|-- assets/
+    |-- profile.jpg
+    |-- resume.pdf
+```
+
+`assets/` is optional and should be created only if profile image or CV assets are available.
+
+### Responsive Rules ###
+
+- Desktop: two-column hero layout, grid cards, vertical timeline.
+- Mobile: single-column layout, stacked cards, mobile menu.
+
+### Business Impact ###
+
+- Improves personal branding and professional communication.
+- Gives recruiters and hiring managers a structured view of experience.
+- Supports clearer storytelling around QA, system analysis, and delivery capability.
