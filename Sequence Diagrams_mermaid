@@ -72,6 +72,8 @@ sequenceDiagram
 ```
 ### Optional Link Visibility ###
 
+img/SEQ_Optional Link Visibility.png
+
 ```mermaid
 sequenceDiagram
     participant JS as script.js
