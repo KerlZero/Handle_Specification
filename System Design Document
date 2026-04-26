@@ -47,6 +47,26 @@ System Design Document
 
 `assets/` is optional and should be created only if profile image or CV assets are available.
 
+## Data Flow ###
+
+
+
+```mermaid
+flowchart LR
+    Content[Static Profile Content]
+    HTML[index.html]
+    CSS[styles.css]
+    JS[script.js]
+    Browser[Browser Rendering]
+    Visitor[Visitor]
+
+    Content --> HTML
+    HTML --> Browser
+    CSS --> Browser
+    JS --> Browser
+    Browser --> Visitor
+```
+
 ### Responsive Rules ###
 
 - Desktop: two-column hero layout, grid cards, vertical timeline.
