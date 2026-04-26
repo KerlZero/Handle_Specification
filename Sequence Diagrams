@@ -1,0 +1,115 @@
+## Sequence Diagrams ##
+
+### Initial Page Load ###
+
+
+
+```mermaid
+sequenceDiagram
+    actor Visitor
+    participant Browser
+    participant HTML as index.html
+    participant CSS as styles.css
+    participant JS as script.js
+
+    Visitor->>Browser: Open website
+    Browser->>HTML: Request page
+    HTML-->>Browser: Return static markup
+    Browser->>CSS: Load stylesheet
+    CSS-->>Browser: Return styles
+    Browser->>JS: Load script
+    JS-->>Browser: Return behavior script
+    Browser->>Browser: Render profile sections
+    Browser->>Browser: Initialize menu, reveal, and navigation behavior
+    Browser-->>Visitor: Display website
+```
+
+### Mobile Navigation ###
+
+
+
+```mermaid
+sequenceDiagram
+    actor Visitor
+    participant UI as Website UI
+    participant JS as script.js
+    participant Section as Target Section
+
+    Visitor->>UI: Tap menu button
+    UI->>JS: Trigger menu toggle
+    JS-->>UI: Show mobile navigation
+    Visitor->>UI: Select section link
+    UI->>JS: Trigger navigation handler
+    JS->>Section: Scroll to selected section
+    JS-->>UI: Close mobile navigation
+    UI-->>Visitor: Display selected section
+```
+
+### Guided Career Journey ###
+
+
+
+```mermaid
+sequenceDiagram
+    actor Visitor
+    participant Home
+    participant About
+    participant Notes
+    participant Timeline
+    participant Experience
+    participant Domains
+    participant Background
+    participant Contact
+
+    Visitor->>Home: Read role and positioning
+    Visitor->>About: Understand working style
+    Visitor->>Notes: Review professional principles
+    Visitor->>Timeline: Scan career stages
+    Visitor->>Experience: Validate detailed job evidence
+    Visitor->>Domains: Review business exposure
+    Visitor->>Background: Review credentials and education
+    Visitor->>Contact: Choose approved contact method
+```
+### Optional Link Visibility ###
+
+
+
+```mermaid
+sequenceDiagram
+    participant JS as script.js
+    participant Config as Profile Config
+    participant UI as Website UI
+
+    JS->>Config: Read optional values
+    alt CV link unavailable
+        JS->>UI: Hide Download CV control
+    else CV link available
+        JS->>UI: Show Download CV control
+    end
+    alt LinkedIn unavailable
+        JS->>UI: Hide LinkedIn link
+    else LinkedIn available
+        JS->>UI: Show LinkedIn link
+    end
+```
+
+## Data Flow ###
+
+
+
+```mermaid
+flowchart LR
+    Content[Static Profile Content]
+    HTML[index.html]
+    CSS[styles.css]
+    JS[script.js]
+    Browser[Browser Rendering]
+    Visitor[Visitor]
+
+    Content --> HTML
+    HTML --> Browser
+    CSS --> Browser
+    JS --> Browser
+    Browser --> Visitor
+```
+
