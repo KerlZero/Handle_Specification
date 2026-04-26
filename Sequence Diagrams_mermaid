@@ -26,6 +26,8 @@ sequenceDiagram
 
 ### Mobile Navigation ###
 
+img/SEQ_Mobile Navigation.png
+
 ```mermaid
 sequenceDiagram
     actor Visitor
