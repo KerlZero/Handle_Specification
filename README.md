@@ -53,6 +53,9 @@ Estimated total: 4 to 5 working days
 - Provide clear contact access for professional opportunities.
 - Support desktop and mobile visitors.
 
+## Use Case Diagram ##
+<img width="7963" height="1869" alt="image" src="https://github.com/user-attachments/assets/be3c08db-8e83-4603-9482-74266e7a0d59" />
+
 ### Initial Page Load ###
 <img width="5515" height="3805" alt="image" src="https://github.com/user-attachments/assets/e944c33c-1582-4298-9669-33a6d32f68eb" />
 
