@@ -53,3 +53,17 @@ Estimated total: 4 to 5 working days
 - Provide clear contact access for professional opportunities.
 - Support desktop and mobile visitors.
 
+### Initial Page Load ###
+<img width="5515" height="3805" alt="image" src="https://github.com/user-attachments/assets/e944c33c-1582-4298-9669-33a6d32f68eb" />
+
+### Mobile Navigation ###
+<img width="5370" height="3005" alt="image" src="https://github.com/user-attachments/assets/bd489dd5-d00b-4b2e-8786-029bc59a2e9a" />
+
+### Guided Career Journey ###
+<img width="8192" height="2558" alt="image" src="https://github.com/user-attachments/assets/7a03e24c-ca53-4b69-9974-61b54896ee10" />
+
+### Optional Link Visibility ###
+<img width="3435" height="3255" alt="image" src="https://github.com/user-attachments/assets/e48fdc61-abb5-49f6-84e2-155cd898d9ac" />
+
+### Data Flow ###
+<img width="3239" height="1254" alt="image" src="https://github.com/user-attachments/assets/dd1bc945-396f-4729-8ba2-b4adce42c052" />
