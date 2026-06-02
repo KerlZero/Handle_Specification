@@ -1,6 +1,6 @@
-# WTTx BA Documentation Package
+# WTTx Documentation Package
 
-This documentation package is prepared from a Business Analyst perspective for the WTTx / Pocket NET WiFi sales-channel enhancement.
+This documentation package is prepared for the WTTx / Pocket NET WiFi sales-channel enhancement.
 
 ## Purpose
 
