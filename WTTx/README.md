@@ -21,3 +21,12 @@ The objective of this initiative is to add WTTx / Pocket NET WiFi as an addition
 ## Scope Summary
 
 Web Register must support WTTx / Pocket NET WiFi registration for locations where normal home internet cannot be provided. The registration journey should follow the normal home internet flow as closely as possible, with key differences including WTTx eligibility by Latitude/Longitude, no installation appointment requirement, additional payment methods before order submission, profile creation through downstream systems, and stock update through PayG before SAP posting.
+
+## Flow_Diagram
+<img width="1800" height="1150" alt="WTTx_Flow_Diagram" src="https://github.com/user-attachments/assets/60930b62-cb29-4a2e-acfc-ff5effad1ff7" />
+
+## Use_Case_Diagram
+<img width="1700" height="1100" alt="WTTx_Use_Case_Diagram" src="https://github.com/user-attachments/assets/861befba-606a-4fdb-9336-23fb4885cbf3" />
+
+## End-to-End Sequence Flow
+<img width="8192" height="6971" alt="Visitor Engagement" src="https://github.com/user-attachments/assets/088ad614-bb08-4e92-8553-1ed8e13a2137" />
