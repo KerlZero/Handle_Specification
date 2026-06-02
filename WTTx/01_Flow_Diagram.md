@@ -55,7 +55,7 @@ sequenceDiagram
     end
 ```
 
-## BA Flow Summary
+## Flow Summary
 
 1. The customer starts the registration journey from Web Register, similar to the normal home internet flow.
 2. Web Register checks the selected Latitude/Longitude to determine whether the location is eligible for WTTx.
