@@ -15,6 +15,12 @@ The objective of this initiative is to add WTTx / Pocket NET WiFi as an addition
 - `05_Acceptance_Criteria.md` - Acceptance criteria
 - `06_Use_Cases.md` - Use cases and use case diagram
 - `07_Business_Rules.md` - Business rules
+- `08_Functional_Specification.md` - Functional specification from System Analyst perspective
+- `09_System_Requirement_Specification.md` - System requirement specification
+- `10_Database_Mapping.md` - Database procedure and parameter mapping
+- `11_Field_Mapping.md` - Field-level mapping across systems
+- `12_Business_Logic.md` - Business and system logic for WTTx
+- `13_Error_Message.md` - Error message and error handling matrix
 - `WTTx_Flow_Diagram.png` - High-level BA flow diagram image
 - `WTTx_Use_Case_Diagram.png` - Use case diagram image
 
