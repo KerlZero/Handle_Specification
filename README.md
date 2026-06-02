@@ -1,4 +1,4 @@
-# Example Project Name Design
+# Example Project Specification
 
 ## Project Web Design 
 The website will be a personal/internal web library for collecting reusable UI design components with working code examples.
