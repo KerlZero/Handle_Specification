@@ -5,3 +5,6 @@ The website will be a personal/internal web library for collecting reusable UI d
 
 ## Project Web Profile
 A web profile is an online page that showcases a person’s or organization’s identity, background, and key information for others to view.
+
+## Project WTTx
+The WTTx / Pocket NET WiFi sales-channel enhancement.
